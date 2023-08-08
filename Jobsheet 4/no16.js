@@ -9,7 +9,7 @@ rl.question("Masukan Sebuah Kalimat: ", (kalimat)=>{
     rl.question("Masukan Kata yang ingin dicari: ", (kataCari)=>{
         const indeksKata = kalimat.indexOf(kataCari);
         if (indeksKata !== -1) {
-            console.log(`kata ${kataCari}' ditemukan pada indeks ${indeksKata}`);
+            console.log(`kata ${kataCari}' pertama kali muncul pada indeks ${indeksKata}`);
         } else {
             console.log(`kata ${kataCari}' tidak ditemukan pada kalimat`);
         }
